@@ -41,4 +41,4 @@ ______________________________________
     - [Resmack-rust - Grammar Mutation and Recursion (Part 5)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-5/)
     - [Resmack-rust - Stateful & Dynamic Grammars (Part 6)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-6/)
    
-   
+- [Fuzzing with Grammars](https://www.fuzzingbook.org/html/Grammars.html) ([FuzzingBook](https://www.fuzzingbook.org/))
