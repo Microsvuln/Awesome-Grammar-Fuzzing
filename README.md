@@ -53,3 +53,5 @@ ______________________________________
     - [Resmack-rust - Stateful & Dynamic Grammars (Part 6)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-6/)
    
 - [Fuzzing with Grammars](https://www.fuzzingbook.org/html/Grammars.html) ([FuzzingBook](https://www.fuzzingbook.org/))
+
+- [Fuzzing Firefox with WebIDL](https://hacks.mozilla.org/2020/04/fuzzing-with-webidl/) by [Jason Kratzer](https://twitter.com/pyoor_)
