@@ -34,6 +34,9 @@ This list aims at helping you to do your research / develop toward Grammar based
 - [Systematically covering input structure](https://core.ac.uk/download/pdf/288306097.pdf) (ASE'19)
     - Grammar-based testing uses a given grammar to produce syntactically valid inputs. To cover program features, it is necessary to also cover input features---say, all URL variants for a URL parser. Our k-path algorithm for grammar production systematically covers syntactic elements as well as their combinations. In our evaluation, we show that this results in a significantly higher code coverage than state of the art.
 
+- [Mining constraints for grammar fuzzing](https://dl.acm.org/doi/pdf/10.1145/3293882.3338983) (ISSTA'19)
+    - In this paper we propose a technique to automate the creation of attribute grammars from context-free grammars, thus significantly lowering the barrier of entry for efficient and effective large-scale grammar-based fuzzing.
+
 - [Superion: Grammar-Aware Greybox Fuzzing](https://arxiv.org/pdf/1812.01197.pdf) (ICSE'19)
     - we propose a grammar-aware coverage-based greybox fuzzing approach to fuzz programs that process structured inputs. Given the grammar (which is often publicly available) of test inputs, we introduce a grammar-aware trimming strategy to trim test inputs at the tree level using the abstract syntax trees (ASTs) of parsed test inputs. Further, we introduce two grammar-aware mutation strategies (i.e., enhanced dictionary-based mutation and tree-based mutation). Specifically, tree-based mutation works via replacing subtrees using the ASTs of parsed test inputs. Equipped with grammar-awareness, our approach can carry the fuzzing exploration into width and depth.
 
@@ -57,4 +60,4 @@ ______________________________________
    
 - [Fuzzing with Grammars](https://www.fuzzingbook.org/html/Grammars.html) ([FuzzingBook](https://www.fuzzingbook.org/))
 
-- [Fuzzing Firefox with WebIDL](https://hacks.mozilla.org/2020/04/fuzzing-with-webidl/) by [Jason Kratzer](https://twitter.com/pyoor_)
+- [Fuzzing Firefox with WebIDL](https://hacks.mozilla.org/2020/04/fuzzing-with-webidl/) by [Jason Kratzer](https://twitter.com/pyoor_) from Mozilla
