@@ -33,7 +33,7 @@ This list aims at helping you to do your research / develop toward Grammar based
 
 ______________________________________
 # Blog posts
-- Resmack-Rust Grammar Fuzzing (Grammar fuzzing series by James Johnson[@d0c_s4vage](https://twitter.com/d0c_s4vage))
+- Resmack-Rust Grammar Fuzzing (Grammar fuzzing series by James Johnson [@d0c_s4vage](https://twitter.com/d0c_s4vage))
     - [Resmack-rust - Grammar Fuzzing Thoughts (Part 1)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-1/)
     - [Resmack-rust - Full Fuzzer Detour (Part 2)](https://narly.me/posts/resmack-detour-full-fuzzer-experiment/)
     - [Resmack-rust - Perf Event Performance Overhead (Part 3)](https://narly.me/posts/resmack-detour-perf-benchmark/)
