@@ -29,3 +29,16 @@ This list aims at helping you to do your research / develop toward Grammar based
 
 - [Generating Highly-structured Input Data by Combining Search-based Testing and Grammar-based Fuzzing](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9286098) (ASE'20)
     - Software testing is an important and time-consuming task that is often done manually. In the last decades, researchers have come up with techniques to generate input data (e.g., fuzzing) and automate the process of generating test cases (e.g., search-based testing). However, these techniques are known to have their own limitations: search-based testing does not generate highly-structured data; grammar-based fuzzing does not generate test case structures. To address these limitations, we combine these two techniques. By applying grammar-based mutations to the input data gathered by the search-based testing algorithm, it allows us to co-evolve both aspects of test case generation. We evaluate our approach, called G-EVOSUITE, by performing an empirical study on 20 Java classes from the three most popular JSON parsers across multiple search budgets. Our results show that the proposed approach on average improves branch coverage for JSON related classes by 15 % (with a maximum increase of 50 %) without negatively impacting other classes.
+
+
+______________________________________
+# Blog posts
+- Resmack-Rust Grammar Fuzzing (Grammar fuzzing series by James Johnson[@d0c_s4vage](https://twitter.com/d0c_s4vage))
+    - [Resmack-rust - Grammar Fuzzing Thoughts (Part 1)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-1/)
+    - [Resmack-rust - Full Fuzzer Detour (Part 2)](https://narly.me/posts/resmack-detour-full-fuzzer-experiment/)
+    - [Resmack-rust - Perf Event Performance Overhead (Part 3)](https://narly.me/posts/resmack-detour-perf-benchmark/)
+    - [Resmack-rust - Grammar Mutations (Part 4)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-4/)
+    - [Resmack-rust - Grammar Mutation and Recursion (Part 5)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-5/)
+    - [Resmack-rust - Stateful & Dynamic Grammars (Part 6)](https://narly.me/posts/resmack-grammar-fuzz-thoughts-6/)
+   
+   
