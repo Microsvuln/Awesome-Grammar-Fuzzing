@@ -4,6 +4,10 @@ This list aims at helping you to do your research / develop toward Grammar based
 
 
 # Academic Papers
+
+- [Generating Tests that Cover Input Structure](https://new-dl.gi.de/bitstream/handle/20.500.12116/34527/B1-30.pdf?sequence=1&isAllowed=y)
+    - To systematically test a program, one needs good inputs—inputs that are valid such that they are not rejected by the program, and inputs that cover as much of the input space as possible in order to reach a maximum of functionality. We present recent techniques to systematically cover input structure. Our k-path algorithm for grammar production [HZ19] systematically covers syntactic elements of the input as well as their combinations. We show how to learn such input structures from graphical user interfaces, notably their interaction language [DBJZ19]. Finally, we demonstrate that knowledge bases such as DBPedia can be a reliable source of semantically coherent inputs [Wa20]. All these techniques result in a significantly higher code coverage than state of the art.
+
 - [Input Algebras](https://publications.cispa.saarland/3208/7/gopinath2021input.pdf)
     - Grammar-based test generators are highly efficient in producing syntactically valid test inputs, and give their user precise control over which test inputs should be generated. Adapting a grammar or a test generator towards a particular testing goal can be tedious, though. We introduce the concept of a grammar transformer, specializing a grammar towards inclusion or exclusion of specific patterns: “The phone number must not start with 011 or +1”. To the best of our knowledge, ours is the first approach to allow for arbitrary Boolean combinations of patterns, giving testers unprecedented flexibility in creating targeted software tests. The resulting specialized grammars can be used with any grammar-based fuzzer for targeted test generation, but also as validators to check whether the given specialization is met or not, opening up additional usage scenarios. In our evaluation on real-world bugs, we show that specialized grammars are accurate both in producing and validating targeted inputs.
     
