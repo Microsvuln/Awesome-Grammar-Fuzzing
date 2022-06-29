@@ -53,6 +53,9 @@ This list aims at helping you to do your research / develop toward Grammar based
 
 - [Automatic Generation of Input Grammars Using Symbolic Execution ](https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1162&context=senior_theses)
     - Invalid input often leads to unexpected behavior in a program and is behind a plethora of known and unknown vulnerabilities. To prevent improper input from being processed, the input needs to be validated before the rest of the program executes. Formal language theory facilitates the definition and recognition of proper inputs. We focus on the problem of defining valid input after the program has already been written. We construct a parser that infers the structure of inputs which avoid vulnerabilities while existing work focuses on inferring the structure of input the program anticipates. We present a tool that constructs an input language, given the program as input, using symbolic execution on symbolic arguments. This differs from existing work which tracks the execution of concrete inputs to infer a grammar. We test our tool on programs with known vulnerabilities, including programs in the GNU Coreutils library, and we demonstrate how the parser catches known invalid inputs. We conclude that the synthesis of the complete parser cannot be entirely automated due to limitations of symbolic execution tools and issues of computability. A more comprehensive parser must additionally be informed by examples and counterexamples of the input language.
+    
+- [syzkaller](https://github.com/google/syzkaller) by Google
+    - syzkaller ([siːzˈkɔːlə]) is an unsupervised coverage-guided kernel fuzzer. Capable of doing advanced structred fuzzing .
 ______________________________________
 # Blog posts
 - Resmack-Rust Grammar Fuzzing (Grammar fuzzing series by James Johnson [@d0c_s4vage](https://twitter.com/d0c_s4vage))
