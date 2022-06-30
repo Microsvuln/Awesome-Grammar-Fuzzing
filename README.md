@@ -56,6 +56,11 @@ This list aims at helping you to do your research / develop toward Grammar based
     
 - [syzkaller](https://github.com/google/syzkaller) by Google
     - syzkaller ([siːzˈkɔːlə]) is an unsupervised coverage-guided kernel fuzzer. Capable of doing advanced structred fuzzing .
+    
+- [AFL++ Grammar Mutator](https://github.com/AFLplusplus/Grammar-Mutator)
+    - We developed a grammar mutator to enhance AFL++ such that AFL++ can handle highly-structured inputs, such as JSON, Ruby, etc. The grammar mutator leverages the idea of F1 fuzzer and Nautilus for test case generation and mutations. In summary, this repository includes:
+
+
 ______________________________________
 # Blog posts
 - Resmack-Rust Grammar Fuzzing (Grammar fuzzing series by James Johnson [@d0c_s4vage](https://twitter.com/d0c_s4vage))
